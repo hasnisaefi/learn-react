@@ -7,6 +7,7 @@ import { Component } from 'react';
 import FunctionComp from './Component';
 //import ClassComp from './Container';
 import Youtube from './Component/YoutubeComp';
+import Index from '../src/Component/index'
 
 //FUNCTION COMP
 // const FunctionComp = () => {
@@ -32,6 +33,7 @@ root.render(
     {/* <ClassComp/> */}
    
     <Home />
+    <Index/>
   </React.StrictMode>
 );
 
