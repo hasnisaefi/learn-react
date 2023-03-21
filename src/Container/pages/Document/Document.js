@@ -47,6 +47,21 @@ export default class Document extends Component {
             value={this.state.inputan}
             onChange={this.Inputan}
           />
+
+          {/* inputan
+          
+          1. type = "text"                    11. type = "number"               21. type "submit"
+          2. type = "password"                12. type = "range"
+          3. type = "radio"11                 13. type = "search"
+          4. type = "textbox"                 14. type = "tel"
+          5. type = "button"                  15. type = "time"
+          6. type = "color"                   16. type = "date"
+          7. type = "email"                   17. type = "datetime-local"
+          8. type = "file"                    18. type = "week"
+          9. type = "hidden"                  19. type = "month"
+          10. type = "image"                  20. type = "url"                                           
+          */}
+
         </div>
         <div className="container">
           <div className="card">
